@@ -30,11 +30,13 @@ h2 {
     top: 143px;
 }
 
+
 .jump{
     animation: jump 0.3s linear;
 }
 
-@keyframes jump{
+
+@keyframes jump{ /*animação para o dino pular*/
     0%{
         top: 143px; /*distância do topo do elemento-pai*/
     }
@@ -65,7 +67,7 @@ h2 {
     left: 580px; /*largura do quadro - largura do cacto*/
     background-image: url(img/cactus.png);
     background-size: 20px 40px;
-    animation: cactus-block 1.8s infinite linear;
+    animation: cactus-block 1.8s infinite linear; /*velocidade de deslocamento*/
 }
 
 @keyframes cactus-block{
